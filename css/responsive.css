@@ -1,0 +1,319 @@
+@media only screen and (max-width: 1400px) {
+    footer .top-content .logo-block {
+        padding-inline-end: 72px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .header-banner-section header {
+        padding-top: 15px;
+    }
+
+    .header-banner-section header .container .d-flex{
+        flex-wrap: wrap !important;
+    }
+
+    .header-banner-section header .nav-block {
+        width: 50%;
+        order: 2;
+    }
+
+    .header-banner-section header .nav-block ul li a {
+        padding: 20px 13.5px;
+    }
+
+    .header-banner-section header .logo-block {
+        width: 100%;
+        order: 1;
+    }
+
+    .header-banner-section header .right-icons-block {
+        width: 50%;
+        order: 3;
+    }
+
+    footer .top-content .logo-block {
+        padding-inline-end: 55px;
+    }
+
+    .new-product-section .cards-block .card .top-content {
+        height: 350px;
+    }
+
+    .product-Sale-Section .cards-block ul {
+        bottom: -35px;
+    }
+}
+
+
+@media only screen and (max-width: 1092px) {
+    .enjoy-the-coffee-section .right-block {
+        padding-left: 60px;
+    }
+
+    .header-banner-section .banner-section .banner-slider .img-block img {
+        height: 100vh !important;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .expresso-caffee-section .hover {
+        height: 450px;
+    }
+
+    footer .top-content .logo-block {
+        padding-block-start: 35px;
+    }
+
+    footer .info-footer {
+        padding: 35px 0;
+    }
+
+    footer .row div:nth-child(3) .info-footer {
+        padding: 10px 0;
+    }
+
+    footer .row div:nth-child(4) .info-footer {
+        padding: 10px 0;
+        border-right: 1px solid var(--footer-border) !important;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .header-banner-section header .logo-block {
+        padding: 0 0 15px 0;
+    }
+
+    .header-banner-section header .nav-block {
+        width: 50%;
+        order: 3;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+    }
+
+    .header-banner-section header .right-icons-block {
+        width: 50%;
+        order: 2;
+        justify-content: flex-start;
+    }
+
+    .header-banner-section header .nav-block .stellarnav .menu-toggle{
+        padding: 0;
+    }
+
+    .header-banner-section header .nav-block .stellarnav .menu-toggle span.bars {
+        margin-right: 0;
+    }
+
+    .header-banner-section header .nav-block .stellarnav .menu-toggle span.bars span {
+        width: 18px;
+        height: 2.5px;
+        margin: 0 0 3px;
+    }
+
+    .header-banner-section header .nav-block .stellarnav ul {
+        position: absolute;
+        width: 100%;
+        right: 0;
+        top: 25px;
+        background-color: #21150a;
+        border: inherit;
+        z-index: 999999;
+    }
+
+    .header-banner-section header .nav-block ul li a {
+        padding: 20px 13.5px;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .header-banner-section header .nav-block ul li:nth-last-child(1) a {
+        border-bottom: inherit;
+    }
+
+    .expresso-caffee-section .hover {
+        height: 340px;
+    }
+
+    .enjoy-the-coffee-section .right-block .bottom .all-time-box span {
+        font-size: 23px;
+    }
+
+    .enjoy-the-coffee-section .right-block .bottom .all-time-box p {
+        font-size: 14px;
+    }
+    
+    .enjoy-the-coffee-section .right-block {
+        padding-left: 10px;
+    }
+
+    .enjoy-the-coffee-section .right-block .bottom .shop-now-btn {
+        font-size: 14px;
+        padding: 11px 37px 11px 20px;
+    }
+
+    .enjoy-the-coffee-section .right-block .bottom .all-time-box .time-box {
+        width: 70px;
+        height: 70px;
+    }
+
+    .header-banner-section header .right-icons-block ul li:nth-child(1) i {
+        font-size: 21px;
+    }
+
+    .header-banner-section header .right-icons-block ul li:nth-child(2) i {
+        font-size: 22px;
+    }
+
+    .header-banner-section header .right-icons-block ul li i {
+        font-size: 20px;
+    }
+
+    .header-banner-section header .right-icons-block ul li:nth-child(4) i {
+        font-size: 21px;
+    }
+
+}
+
+@media only screen and (max-width: 635px) {
+    .enjoy-the-coffee-section {
+        padding: 20px 0;
+    }
+
+    .enjoy-the-coffee-section .d-flex{
+        justify-content: center;
+    }
+
+    .enjoy-the-coffee-section .big-img {
+       display: none !important;
+    }
+
+    .enjoy-the-coffee-section .right-block {
+        padding-left: 0;
+    }
+
+    .enjoy-the-coffee-section::after {
+        width: 481px;
+        height: 518px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .header-banner-section .banner-section .banner-slider .img-block img {
+        height: 500px!important;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .header-banner-section header .logo-block img{
+       max-width: 155px;
+    }
+
+    .header-banner-section header .logo-block {
+        padding: 0 0 20px 0;
+    }
+
+    .header-banner-section .banner-section .banner-slider .img-block .content span {
+        font-size: 14px;
+    }
+
+    .header-banner-section .banner-section .banner-slider .img-block .content p {
+        font-size: 16px;
+    }
+
+    .header-banner-section .banner-section .banner-slider .img-block .content .shop-now-btn {
+        font-size: 14px;
+        padding: 6px 18px;
+    }
+
+    .header-banner-section header .nav-block .stellarnav .menu-toggle span.bars span {
+        width: 19px;
+        height: 3px;
+        margin: 0 0 3px;
+    }
+
+    .product-Sale-Section .cards-block .product-Sale-Section-slider .card {
+        padding-right: 0;
+    }
+
+    .enjoy-the-coffee-section {
+        padding: 37px 0;
+    }
+
+    .enjoy-the-coffee-section .right-block .bottom .all-time-box .countdown-container {
+        gap: 16px;
+    }
+
+    .primary-heading {
+        padding-bottom: 30px;
+        font-size: clamp(1.3125rem, 0.8906rem + 2.25vw, 1.875rem);
+    }
+
+    .enjoy-the-coffee-section::after {
+        background-image: linear-gradient(62deg, rgb(0 0 0 / 12%) 0%, rgb(0 0 0 / 10%) 100%), url(../images/enjoy-the-coffee-section-bgi-img2.png);
+    }
+
+    .expresso-caffee-section .hover .content-wrapper h3 {
+        padding-bottom: 7px;
+    }
+
+    .expresso-caffee-section .hover .content-wrapper .shop-btn-hover {
+        opacity: 1;
+    }
+
+    .expresso-caffee-section .hover .content-wrapper .shop-btn-hover a::after {
+        margin-top: 3px;
+    }
+
+    .product-Sale-Section .top-heading-block {
+        padding-bottom: 35px;
+    }
+
+    .product-Sale-Section .top-heading-block h2 {
+        padding-bottom: 15px;
+    }
+
+    .new-product-section .cards-block .card .top-content {
+        height: 300px !important;
+    }
+
+    .new-product-section .cards-block .card .top-content .content .top-icon-block {
+        gap: 10px;
+    }
+
+    .new-product-section .cards-block .card .top-content .content .top-icon-block .top-icon a {
+        --_s: 38px;
+    }
+
+    .new-product-section .cards-block .card .top-content .content .top-icon-block .top-icon a i {
+        font-size: 16px;
+    }
+
+    .new-product-section .cards-block .card .top-content .img .discount .dis {
+        font-size: 11px;
+    }
+
+    .new-product-section .cards-block .card .top-content {
+        height: 260px;
+    }
+
+    .new-product-section .cards-block .card .top-content {
+        height: 300px;
+    }
+
+    .product-Sale-Section .cards-block ul {
+        bottom: -18px;
+    }
+
+    .product-Sale-Section {
+        padding-bottom: 50px;
+    }
+
+    footer .top-content .logo-block .img-block img{
+        max-width: 155px;
+    }
+}
